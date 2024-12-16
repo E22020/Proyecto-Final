@@ -1,0 +1,10 @@
+.Categorias{
+    background-image: url(https://live.staticflickr.com/2665/4161713573_ab5f20f5ee_b.jpg);
+    background-size: cover;
+    opacity: 1;
+    padding: 5px;
+}
+.Cat{
+    position: relative;
+    padding: 10px;
+}

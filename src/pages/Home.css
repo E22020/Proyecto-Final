@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.Home{
+    font-family: 'Chewy', system-ui;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    display: grid;
+    grid-template-areas: 'Titulo Titulo Titulo'
+                         'carrusel carrusel carrusel'
+                         'parrafo parrafo parrafo'
+                         'img1 Mont img2'
+    ;
+
+}
+.Home .Carrusel{
+    grid-area: carrusel;
+    padding: 18px;
+    align-items: center;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.Home .Parrafo{
+    grid-area: parrafo;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+}
+.chewy-font {
+    font-family: 'Chewy', cursive;
+    font-size: 70px;
+    text-align: center;
+    background-color: #3d9dad;
+  }
+  .chewy-font2 {
+    font-family: 'Chewy', cursive;
+    font-size: 50px;
+    color: #ffffff;
+    background-color: #3d9dad;
+    border: none;
+  }
+  .Mont {
+    grid-area: Mont;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    border: none;
+
+  }
+  .Home .img1h{
+    grid-area: img2;
+  }
+  .Home .img2h{
+    grid-area: img1;
+    border-left: 30px;
+  } 
+  .Home .Tituloh{
+    grid-area: Titulo;
+    text-align: center;
+    padding: 50px;
+  }
